@@ -1,8 +1,12 @@
-#container {
+body {
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px
+}
+
+#container {
+  width: 70%;
+  margin: auto;
 }
 
 #logo {
@@ -38,11 +42,6 @@ h1 {
 .bianco {
   color: #ffffff;
   font-size: 25px;
-}
-
-.margine {
-  margin-left: 80px;
-  margin-right: 80px;
 }
 
 .non-letto {
